@@ -1,0 +1,163 @@
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    color: rgb(151, 151, 151);
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.hobbi {
+    background-color: palegreen;
+    
+}
+
+.experience {
+    background-color: moccasin;
+}
+
+a {
+    color: rgba(86, 96, 106, 0.405);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(113, 215, 233);
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+ 
+.btn {
+    background: #111;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(72, 255, 0);
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li{
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea  {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    width: 50%;
+    margin-right: 20px;
+    /* width: calc(50%-20px); */
+    /* display: inline-block; */
+}
+
+.form-row .form.form-group:last-child {
+    margin-right: 0;
+}
+
+@media(max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .form-row{
+        display: block;
+    }
+    .form_row .form_group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
